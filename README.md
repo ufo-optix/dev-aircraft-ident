@@ -37,6 +37,12 @@ Here have been my steps that you can use to reproduce training.
 8. Once you've trained your model, you will see a `runs` directory with the training information and your test cases as images that have been analyzed. This folder will also have your new weights. 
 
 
+## Dataset Building
+
+In the repository, I am aggregating [EO Browser](https://apps.sentinel-hub.com/eo-browser/) images that contain known aircraft movement defined by an RGB signature on the image. These images are then uploaded to our [UFO Bounding Box Detection Dataset](https://app.roboflow.com/ufo-optix/ufo-bounding-box-detection) where we will then annotate the images and prepare them to be trained against. 
+
+To get access to the training dataset with the ability to add and annotate images, please send us your email in Discord.
+
 ## Example Datasets
 
 1. For Satellite Aircraft Training, I built my own and used the following:
