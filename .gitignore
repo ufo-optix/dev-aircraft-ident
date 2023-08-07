@@ -6,8 +6,9 @@ __pycache__/
 runs
 runs/*
 datasets
-data
-data/*
+data/test/images/*
+data/train/images/*
+data/train/labels/*
 *yolov8n.pt*
 
 # C extensions
