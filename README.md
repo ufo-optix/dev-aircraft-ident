@@ -41,6 +41,8 @@ Here have been my steps that you can use to reproduce training.
 
 In the repository, I am aggregating [EO Browser](https://apps.sentinel-hub.com/eo-browser/) images that contain known aircraft movement defined by an RGB signature on the image. These images are then uploaded to our [UFO Bounding Box Detection Dataset](https://app.roboflow.com/ufo-optix/ufo-bounding-box-detection) where we will then annotate the images and prepare them to be trained against. 
 
+**Image Naming** - Each image is named by the [ICAO code](https://en.wikipedia.org/wiki/ICAO_airport_code) for the airport/base.
+
 To get access to the training dataset with the ability to add and annotate images, please send us your email in Discord.
 
 ## Example Datasets
