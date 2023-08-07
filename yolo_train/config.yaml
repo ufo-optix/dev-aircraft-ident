@@ -1,0 +1,7 @@
+path: C:\Users\faust\code\dev-aircraft-ident\yolo_train
+train: data\images\train
+val: data\images\train
+
+nc: 1
+
+names: ['Aircraft']

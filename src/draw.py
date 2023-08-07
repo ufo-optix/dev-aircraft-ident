@@ -73,7 +73,8 @@ def draw_boxes(boxes, classes, labels, image):
             org=(int(box[0]), int(box[1]-5)),
             fontFace=cv2.FONT_HERSHEY_SIMPLEX, 
             fontScale=lw / 3, 
-            color=color[::-1], 
+            #color=color[::-1], 
+            color = (0, 255, 0)
             thickness=tf, 
             lineType=cv2.LINE_AA
         )
