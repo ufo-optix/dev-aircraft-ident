@@ -17,7 +17,7 @@ This uses the [YOLOv8 model](https://github.com/ultralytics/ultralytics) due to 
 All models are located in the `models` directory.
 
 - August 8th, 2023 Training:
-  - ![]("./../doc/output.png")
+  - ![](./doc/output.png)
 
 ## Dataset Building
 
