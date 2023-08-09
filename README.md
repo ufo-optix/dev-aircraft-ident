@@ -12,6 +12,13 @@ This uses the [YOLOv8 model](https://github.com/ultralytics/ultralytics) due to 
 2. It's very flexible (Formats that PyTorch, Tensorflow, etc. can consume).
 3. It's stupid easy to add new weights and classes to existing models and/or create a new model. 
 
+## Models
+
+All models are located in the `models` directory.
+
+- August 8th, 2023 Training:
+  - ![]("./../doc/output.png")
+
 ## Dataset Building
 
 In the repository, I am aggregating [EO Browser](https://apps.sentinel-hub.com/eo-browser/) (Located in the `raw_images` directory)images that contain known aircraft movement defined by an RGB signature on the image. These images are then uploaded to our [UFO Bounding Box Detection Dataset](https://app.roboflow.com/ufo-optix/ufo-bounding-box-detection) where we will then annotate the images and prepare them to be trained against. We will need ~2,000 images for a single class according to [darknet](https://github.com/AlexeyAB/darknet).
