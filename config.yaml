@@ -1,6 +1,6 @@
 path: C:\Users\faust\code\dev-aircraft-ident
-train: data\images\train
-val: data\images\train
+train: data\train
+val: data\valid
 
 nc: 1
 
